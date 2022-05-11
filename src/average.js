@@ -12,9 +12,7 @@
 */
 
 const verifyArray = (array) => {
-  if (array.length === 0) {
-    return true;
-  }
+  if (array.length === 0) { return true; }
   for (let index of array) {
     if (typeof index !== 'number') {
       return true;
